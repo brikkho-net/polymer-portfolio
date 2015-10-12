@@ -36,7 +36,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         properties: {},
         switchPages: function() {
             var pages = document.querySelector('#pages');
-            pages.selected === 0 ? pages.selected = 1 : pages.selected = 0  ;
+            if (pages.selected === 0) {
+                pages.selected = 1;
+            } else {
+                pages.selected = 0;
+            }
         },
         openProject: function(e, detail, sender) {
             var idx;
@@ -47,18 +51,17 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             }
             this.$.project.data = this.data.sections.projects[idx];
             this.async(this.switchPages);
-            document.querySelector('.paper-scroll-header-panel-0 #headerBg.paper-scroll-header-panel').style.background = this.data.sections.projects[idx].backgroundColor+' url("../../images/'+this.data.sections.projects[idx].image+'") no-repeat center';
-            document.querySelector('.paper-scroll-header-panel-0 #condensedHeaderBg.paper-scroll-header-panel').style.backgroundColor = this.data.sections.projects[idx].backgroundColor; 
-            if(e.detail.name==='Shire') {
+            document.querySelector('.paper-scroll-header-panel-0 #headerBg.paper-scroll-header-panel').style.background = this.data.sections.projects[idx].backgroundColor + ' url("../../images/' + this.data.sections.projects[idx].image + '") no-repeat center';
+            document.querySelector('.paper-scroll-header-panel-0 #condensedHeaderBg.paper-scroll-header-panel').style.backgroundColor = this.data.sections.projects[idx].backgroundColor;
+            if (e.detail.name === 'Shire') {
                 document.querySelector('paper-toolbar.paper-toolbar-0').style.color = '#323232';
+            } else {
+                document.querySelector('paper-toolbar.paper-toolbar-0').style.color = '#ffffff';
             }
-            else {
-                document.querySelector('paper-toolbar.paper-toolbar-0').style.color = '#ffffff';   
-            }
-            setTimeout(function(){
+            setTimeout(function() {
                 document.querySelector('#mainContainer.paper-scroll-header-panel').scrollTop = 0;
             });
-            
+
         },
         backHome: function() {
             this.async(this.switchPages);
