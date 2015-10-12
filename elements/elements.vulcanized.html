@@ -24405,7 +24405,7 @@ iron-selector:not(.narrow-layout) #main ::content [paper-drawer-toggle] {
     }
     </style>
     <template>
-        <iron-ajax id="dataService" auto="" url="../../data.json" handle-as="json" last-response="{{data}}"></iron-ajax>
+        <iron-ajax id="dataService" auto="" url="https://raw.githubusercontent.com/samarthgulati/polymer-portfolio/gh-pages/data.json" handle-as="json" last-response="{{data}}"></iron-ajax>
         <iron-pages id="pages" selected="0" on-project-select="openProject" on-take-home="backHome">
             <div>
                 <port-home data="[[data]]"></port-home>
