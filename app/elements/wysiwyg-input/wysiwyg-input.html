@@ -1,0 +1,36 @@
+<dom-module id="wysiwyg-input">
+    <style>
+      :host {
+        display: block;
+      }
+      .wysiwyg-input {
+        width: 100vw;
+        height: 10vh;
+      }
+
+      /*@media (max-width: 600px) {
+        h1.paper-font-display1 {
+          font-size: 24px;
+        }
+      }*/
+    </style>
+  <template>
+    <p>{{greeting}}</p>
+    <input class="wysiwyg-input" value="{{greeting::input}}">
+  </template>
+</dom-module>
+  <script>
+  (function() {
+    Polymer({
+      is: 'wysiwyg-input',
+
+      properties: {
+        greeting: {
+          type: String,
+          value: 'Welcome',
+          notify: true
+        }
+      }
+    });
+    })();
+  </script>

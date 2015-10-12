@@ -1,0 +1,93 @@
+<!--
+@license
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+<dom-module id="port-about">
+    <style>
+    :host {
+        display: block;
+    }
+    
+    .company__image {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .about__experience {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .experience__company-material {
+        width: 290px;
+        height: 100px;
+        padding: 0;
+        margin: .5rem;
+        background-color: #fefefe;
+    }
+    
+    .experience__company {
+        display: flex;
+        margin: 0;
+        color: #323232;
+    }
+    
+    .company__caption {
+        margin-left: .5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    h3,
+    h4 {
+        margin: 0;
+    }
+    
+    .company-caption__title-position {
+        margin-bottom: .5rem;
+    }
+    </style>
+    <template>
+        <article class="main__about" id="about">
+            <header class="about__header">
+                <h2 class="about-header__h2">Currently, I am pursuing a Masters in HCI from University of Michigan</h2>
+                <h2 class="about-header__h2">In the past, I have worked for </h2>
+            </header>
+            <section class="about__experience">
+                <template is="dom-repeat" items="[[data.experience]]">
+                    <paper-material elevation="1" class="experience__company-material">
+                        <figure class="experience__company">
+                            <!-- <img class="company__image" src="[[item.image]]" alt="Project HCS Image"> -->
+                            <iron-icon class="company__image" icon="[[item.image]]"></iron-icon>
+                            <figcaption class="company__caption">
+                                <hgroup class="company-caption__title-position">
+                                    <h3 class="company-caption__title">[[item.organization]]</h3>
+                                    <h4 class="company-caption__position">[[item.role]]</h4>
+                                </hgroup>
+                                <hgroup class="company-caption__duration-location">
+                                    <h4 class="company-caption__duration">[[item.start-date]] - [[item.end-date]]</h4>
+                                    <h4 class="company-caption__location">[[item.location]]</h4>
+                                </hgroup>
+                            </figcaption>
+                        </figure>
+                    </paper-material>
+                </template>
+            </section>
+        </article>
+    </template>
+</dom-module>
+<script>
+(function() {
+    Polymer({
+        is: 'port-about',
+        properties: {}
+    });
+})();
+</script>

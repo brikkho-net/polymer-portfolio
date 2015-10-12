@@ -1,0 +1,89 @@
+<!--
+@license
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+<dom-module id="port-projects">
+    <style>
+    :host {
+        display: block;
+    }
+    
+    .project__image {
+        --iron-icon-height: 220px;
+        --iron-icon-width: 220px;
+    }
+    
+    .project__image {
+        border-radius: 2em;
+    }
+    
+    .projects__project-list {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .project-list__project {
+        color: #323232;
+        text-decoration: none;
+        margin: 8px;
+    }
+    
+    .project-list__project-material {
+        display: flex;
+        flex-direction: column;
+        width: 220px;
+        margin: 0;
+        padding: 0;
+        background-color: #fefefe;
+    }
+    
+    .project-list__project-figure {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .project__caption {
+        padding: 0.5em;
+    }
+    
+    .project-caption__title,
+    .project-caption__sub-title {
+        margin: 0;
+    }
+    </style>
+    <template>
+        <article class="main__projects" id="projects">
+            <header class="projects__header">
+                <h2 class="projects__header-h2">These are a few of the projects I worked on</h2>
+            </header>
+            <section class="projects__project-list layout horizontal">
+                <template is="dom-repeat" items="[[data]]">
+                    <a href="#" class="project-list__project" name="[[item.name]]" on-tap="projectTapped">
+                        <paper-material elevation="1" class="project-list__project-material">
+                            <figure class="project-list__project-figure">
+                                <iron-icon class="project__image" icon="[[item.thumbnail]]"></iron-icon>
+                                <figcaption class="project__caption">
+                                    <h3 class="project-caption__title">[[item.name]]</h3>
+                                    <h4 class="project-caption__sub-title">[[item.sub-title]]</h4>
+                                </figcaption>
+                            </figure>
+                        </paper-material>
+                    </a>
+                </template>
+            </section>
+        </article>
+    </template>
+    <script>
+    Polymer({
+        is: 'port-projects',
+        projectTapped: function(e) {
+            this.fire('project-select', {name: e.currentTarget.getAttribute('name')});
+        }
+    });
+    </script>
+</dom-module>
