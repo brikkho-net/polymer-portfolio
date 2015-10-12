@@ -1,0 +1,821 @@
+{
+    "title-nav": {
+        "title": {
+            "name": "Samarth Gulati",
+            "img": "/images/icon.png",
+            "link": "http://www.samarthgulati.com"
+        },
+        "nav": [{
+            "name": "projects",
+            "link": "#projects"
+        }, {
+            "name": "about",
+            "link": "#about"
+        }, {
+            "name": "contact",
+            "link": "#contact"
+        }]
+    },
+
+    "sections": {
+        "skills": [{
+            "name": "UI Designer",
+            "image": "port-skill-icons:ui-design"
+        }, {
+            "name": "Prototyper",
+            "image": "port-skill-icons:prototyping"
+        }, {
+            "name": "UX Researcher",
+            "image": "port-skill-icons:ux-research"
+        }],
+        "projects": [{
+            "name": "Adobe AEM",
+            "image": "xd.svg",
+            "backgroundColor": "#323232",
+            "sub-title": "Adobe XD",
+            "position": "Experience Developer Intern",
+            "duration": "Jun '15 to Sep '15",
+            "team": [{
+                "name": "Sean Voisen",
+                "link": "https://www.linkedin.com/in/svoisen"
+            }, {
+                "name": "Ben Farell",
+                "link": "https://www.linkedin.com/in/bfarrellforever"
+            }, {
+                "name": "Bernard Kerr",
+                "link": "https://www.linkedin.com/in/bernardkerr"
+            }],
+            "skills": {
+                "design": ["User Research", "Prototyping"],
+                "web-development": ["Python", "ReactJS", "SASS"]
+            },
+            "tools": ["Illustrator", "Gulp", "Sublime Text"],
+            "thumbnail": "port-project-icons:xd",
+            "link": "/shire",
+            "sections": [{
+                "name": "Problem",
+                "isProcess": false,
+                "content": [{
+                    "sub-title": "",
+                    "para": "Saepe, possimus praesentium sunt suscipit officia voluptatum soluta dolore quasi quo, porro nam, architecto est recusandae facilis qui! Saepe nesciunt nemo tempore."
+                }, {
+                    "sub-title": "",
+                    "para": "Vero dolores quasi, beatae id eum, explicabo aliquid harum modi ab non, voluptatum cumque odio voluptate ipsa dolorum et obcaecati distinctio delectus!"
+                }],
+                "image": {
+                    "url": "ahttp://www.lorempixel.com/10/10",
+                    "caption": "lorem ipsum",
+                    "annotations": [{
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }]
+                  }
+            }, {
+                "name": "Solution",
+                "isProcess": false,
+                "content": [{
+                    "sub-title": "",
+                    "para": "Saepe, possimus praesentium sunt suscipit officia voluptatum soluta dolore quasi quo, porro nam, architecto est recusandae facilis qui! Saepe nesciunt nemo tempore."
+                }, {
+                    "sub-title": "",
+                    "para": "Vero dolores quasi, beatae id eum, explicabo aliquid harum modi ab non, voluptatum cumque odio voluptate ipsa dolorum et obcaecati distinctio delectus!"
+                }],
+                "image": {
+                    "url": "ahttp://www.lorempixel.com/10/10",
+                    "caption": "lorem ipsum",
+                    "annotations": [{
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }]
+                  }
+            }, {
+                "name": "Process",
+                "isProcess": true,
+                "content": [{
+                    "sub-title": "",
+                    "para": "Saepe, possimus praesentium sunt suscipit officia voluptatum soluta dolore quasi quo, porro nam, architecto est recusandae facilis qui! Saepe nesciunt nemo tempore."
+                }, {
+                    "sub-title": "",
+                    "para": "Vero dolores quasi, beatae id eum, explicabo aliquid harum modi ab non, voluptatum cumque odio voluptate ipsa dolorum et obcaecati distinctio delectus!"
+                }],
+                "images": [{
+                    "url": "ahttp://www.lorempixel.com/10/10",
+                    "caption": "lorem ipsum",
+                    "annotations": [{
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }]
+                }, {
+                    "url": "ahttp://www.lorempixel.com/10/10",
+                    "caption": "lorem ipsum",
+                    "annotations": [{
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }]
+                }, {
+                    "url": "ahttp://www.lorempixel.com/10/10",
+                    "caption": "lorem ipsum",
+                    "annotations": [{
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }]
+                }]
+            }],
+            "related-projects": [{
+                "name": "lorem ipsum",
+                "url": "/shire"
+            }]
+        }, {
+            "name": "Visualize Filter Bubble",
+            "image": "filter-bubble.svg",
+            "backgroundColor": "#333333",
+            "sub-title": "WIP CHI'15",
+            "position": "Research Assistant",
+            "duration": "Sep '14 to Jun '15",
+            "team": [{
+                "name": "Tawanna Dilahunt",
+                "link": "https://www.linkedin.com/pub/tawanna-dillahunt/82/866/a77"
+            }, {
+                "name": "Christopher Brooks",
+                "link": "https://www.linkedin.com/in/cab938/"
+            }],
+            "skills": {
+                "design": [],
+                "web-development": ["JavaScript", "PHP", "MySQL", "HTML/CSS", "Python"]
+            },
+            "tools": ["Sublime Text", "MAMP", "Digital Ocean"],
+            "thumbnail": "port-project-icons:filter-bubble",
+            "sections": [{
+                "name": "Problem",
+                "isProcess": false,
+                "content": [{
+                    "sub-title": "",
+                    "para": "Saepe, possimus praesentium sunt suscipit officia voluptatum soluta dolore quasi quo, porro nam, architecto est recusandae facilis qui! Saepe nesciunt nemo tempore."
+                }, {
+                    "sub-title": "",
+                    "para": "Vero dolores quasi, beatae id eum, explicabo aliquid harum modi ab non, voluptatum cumque odio voluptate ipsa dolorum et obcaecati distinctio delectus!"
+                }],
+                "image": {
+                    "url": "ahttp://www.lorempixel.com/10/10",
+                    "caption": "lorem ipsum",
+                    "annotations": [{
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }]
+                  }
+            }, {
+                "name": "Solution",
+                "isProcess": false,
+                "content": [{
+                    "sub-title": "",
+                    "para": "Saepe, possimus praesentium sunt suscipit officia voluptatum soluta dolore quasi quo, porro nam, architecto est recusandae facilis qui! Saepe nesciunt nemo tempore."
+                }, {
+                    "sub-title": "",
+                    "para": "Vero dolores quasi, beatae id eum, explicabo aliquid harum modi ab non, voluptatum cumque odio voluptate ipsa dolorum et obcaecati distinctio delectus!"
+                }],
+                "image": {
+                    "url": "ahttp://www.lorempixel.com/10/10",
+                    "caption": "lorem ipsum",
+                    "annotations": [{
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }]
+                  }
+            }, {
+                "name": "Process",
+                "isProcess": true,
+                "content": [{
+                    "sub-title": "",
+                    "para": "Saepe, possimus praesentium sunt suscipit officia voluptatum soluta dolore quasi quo, porro nam, architecto est recusandae facilis qui! Saepe nesciunt nemo tempore."
+                }, {
+                    "sub-title": "",
+                    "para": "Vero dolores quasi, beatae id eum, explicabo aliquid harum modi ab non, voluptatum cumque odio voluptate ipsa dolorum et obcaecati distinctio delectus!"
+                }],
+                "images": [{
+                    "url": "ahttp://www.lorempixel.com/10/10",
+                    "caption": "lorem ipsum",
+                    "annotations": [{
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }]
+                }, {
+                    "url": "ahttp://www.lorempixel.com/10/10",
+                    "caption": "lorem ipsum",
+                    "annotations": [{
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }]
+                }, {
+                    "url": "ahttp://www.lorempixel.com/10/10",
+                    "caption": "lorem ipsum",
+                    "annotations": [{
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }]
+                }]
+            }],
+            "related-projects": [{
+                "name": "lorem ipsum",
+                "url": "/shire"
+            }]
+        }, {
+            "name": "Drone You Eye",
+            "image": "dye.svg",
+            "backgroundColor": "#00ACC1",
+            "sub-title": "Drone Piloting Interface",
+            "position": "UX Designer",
+            "duration": "Feb '15 to Mar '15",
+            "team": [{
+                "name": "Anubhav Saxena",
+                "link": "https://www.linkedin.com/in/saxenanubhav"
+            }, {
+                "name": "Mayank Khanna",
+                "link": "https://www.linkedin.com/in/mayankk1"
+            }],
+            "skills": {
+                "design": ["User Research", "Prototyping"],
+                "web-development": []
+            },
+            "tools": ["Illustrator", "Photoshop"],
+            "thumbnail": "port-project-icons:drone-you-eye",
+            "sections": [{
+                "name": "Problem",
+                "isProcess": false,
+                "content": [{
+                    "sub-title": "",
+                    "para": "Saepe, possimus praesentium sunt suscipit officia voluptatum soluta dolore quasi quo, porro nam, architecto est recusandae facilis qui! Saepe nesciunt nemo tempore."
+                }, {
+                    "sub-title": "",
+                    "para": "Vero dolores quasi, beatae id eum, explicabo aliquid harum modi ab non, voluptatum cumque odio voluptate ipsa dolorum et obcaecati distinctio delectus!"
+                }],
+                "image": {
+                    "url": "ahttp://www.lorempixel.com/10/10",
+                    "caption": "lorem ipsum",
+                    "annotations": [{
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }]
+                  }
+            }, {
+                "name": "Solution",
+                "isProcess": false,
+                "content": [{
+                    "sub-title": "",
+                    "para": "Saepe, possimus praesentium sunt suscipit officia voluptatum soluta dolore quasi quo, porro nam, architecto est recusandae facilis qui! Saepe nesciunt nemo tempore."
+                }, {
+                    "sub-title": "",
+                    "para": "Vero dolores quasi, beatae id eum, explicabo aliquid harum modi ab non, voluptatum cumque odio voluptate ipsa dolorum et obcaecati distinctio delectus!"
+                }],
+                "image": {
+                    "url": "ahttp://www.lorempixel.com/10/10",
+                    "caption": "lorem ipsum",
+                    "annotations": [{
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }]
+                  }
+            }, {
+                "name": "Process",
+                "isProcess": true,
+                "content": [{
+                    "sub-title": "",
+                    "para": "Saepe, possimus praesentium sunt suscipit officia voluptatum soluta dolore quasi quo, porro nam, architecto est recusandae facilis qui! Saepe nesciunt nemo tempore."
+                }, {
+                    "sub-title": "",
+                    "para": "Vero dolores quasi, beatae id eum, explicabo aliquid harum modi ab non, voluptatum cumque odio voluptate ipsa dolorum et obcaecati distinctio delectus!"
+                }],
+                "images": [{
+                    "url": "ahttp://www.lorempixel.com/10/10",
+                    "caption": "lorem ipsum",
+                    "annotations": [{
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }]
+                }, {
+                    "url": "ahttp://www.lorempixel.com/10/10",
+                    "caption": "lorem ipsum",
+                    "annotations": [{
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }]
+                }, {
+                    "url": "ahttp://www.lorempixel.com/10/10",
+                    "caption": "lorem ipsum",
+                    "annotations": [{
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }]
+                }]
+            }],
+            "related-projects": [{
+                "name": "lorem ipsum",
+                "url": "/shire"
+            }]
+        }, {
+            "name": "Shire",
+            "image": "shire.svg",
+            "backgroundColor": "#fffef7",
+            "sub-title": "Android App Design",
+            "position": "UX Designer",
+            "duration": "Sep '14 to Nov '14",
+            "team": [],
+            "skills": {
+                "design": ["User Research", "Personas", "Sketches", "Paper Prototyping", "Digital Prototyping"],
+                "web-development": []
+            },
+            "tools": ["Axure", "Illustrator", "Photoshop"],
+            "thumbnail": "port-project-icons:shire",
+            "sections": [{
+                "name": "Problem",
+                "isProcess": false,
+                "content": [{
+                    "sub-title": "",
+                    "para": "Saepe, possimus praesentium sunt suscipit officia voluptatum soluta dolore quasi quo, porro nam, architecto est recusandae facilis qui! Saepe nesciunt nemo tempore."
+                }, {
+                    "sub-title": "",
+                    "para": "Vero dolores quasi, beatae id eum, explicabo aliquid harum modi ab non, voluptatum cumque odio voluptate ipsa dolorum et obcaecati distinctio delectus!"
+                }],
+                "image": {
+                    "url": "ahttp://www.lorempixel.com/10/10",
+                    "caption": "lorem ipsum",
+                    "annotations": [{
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }]
+                  }
+            }, {
+                "name": "Solution",
+                "isProcess": false,
+                "content": [{
+                    "sub-title": "",
+                    "para": "Saepe, possimus praesentium sunt suscipit officia voluptatum soluta dolore quasi quo, porro nam, architecto est recusandae facilis qui! Saepe nesciunt nemo tempore."
+                }, {
+                    "sub-title": "",
+                    "para": "Vero dolores quasi, beatae id eum, explicabo aliquid harum modi ab non, voluptatum cumque odio voluptate ipsa dolorum et obcaecati distinctio delectus!"
+                }],
+                "image": {
+                    "url": "ahttp://www.lorempixel.com/10/10",
+                    "caption": "lorem ipsum",
+                    "annotations": [{
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }]
+                  }
+            }, {
+                "name": "Process",
+                "isProcess": true,
+                "content": [{
+                    "sub-title": "",
+                    "para": "Saepe, possimus praesentium sunt suscipit officia voluptatum soluta dolore quasi quo, porro nam, architecto est recusandae facilis qui! Saepe nesciunt nemo tempore."
+                }, {
+                    "sub-title": "",
+                    "para": "Vero dolores quasi, beatae id eum, explicabo aliquid harum modi ab non, voluptatum cumque odio voluptate ipsa dolorum et obcaecati distinctio delectus!"
+                }],
+                "images": [{
+                    "url": "ahttp://www.lorempixel.com/10/10",
+                    "caption": "lorem ipsum",
+                    "annotations": [{
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }]
+                }, {
+                    "url": "ahttp://www.lorempixel.com/10/10",
+                    "caption": "lorem ipsum",
+                    "annotations": [{
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }]
+                }, {
+                    "url": "ahttp://www.lorempixel.com/10/10",
+                    "caption": "lorem ipsum",
+                    "annotations": [{
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }]
+                }]
+            }],
+            "related-projects": [{
+                "name": "lorem ipsum",
+                "url": "/shire"
+            }]
+        }, {
+            "name": "SlideCinch",
+            "image": "slidecinch.svg",
+            "backgroundColor": "#6A0B00",
+            "sub-title": "Android App Design",
+            "position": "UX Designer",
+            "duration": "Jan '14 to Feb '14",
+            "team": [{
+                "name": "Karan Pratap",
+                "link": "https://in.linkedin.com/in/karanpratap"
+            }, {
+                "name": "Sahib Singh",
+                "link": "https://www.linkedin.com/in/sahib24chd"
+            }],
+            "skills": {
+                "design": ["Branding", "Prototyping"],
+                "web-development": ["HTML/CSS", "Bootstrap", "JavaScript"]
+            },
+            "tools": ["Illustrator", "Google Slides", "Sublime Text", "Emmet"],
+            "thumbnail": "port-project-icons:slidecinch",
+            "link": "/shire",
+            "sections": [{
+                "name": "Problem",
+                "isProcess": false,
+                "content": [{
+                    "sub-title": "",
+                    "para": "Saepe, possimus praesentium sunt suscipit officia voluptatum soluta dolore quasi quo, porro nam, architecto est recusandae facilis qui! Saepe nesciunt nemo tempore."
+                }, {
+                    "sub-title": "",
+                    "para": "Vero dolores quasi, beatae id eum, explicabo aliquid harum modi ab non, voluptatum cumque odio voluptate ipsa dolorum et obcaecati distinctio delectus!"
+                }],
+                "image": {
+                    "url": "ahttp://www.lorempixel.com/10/10",
+                    "caption": "lorem ipsum",
+                    "annotations": [{
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }]
+                  }
+            }, {
+                "name": "Solution",
+                "isProcess": false,
+                "content": [{
+                    "sub-title": "",
+                    "para": "Saepe, possimus praesentium sunt suscipit officia voluptatum soluta dolore quasi quo, porro nam, architecto est recusandae facilis qui! Saepe nesciunt nemo tempore."
+                }, {
+                    "sub-title": "",
+                    "para": "Vero dolores quasi, beatae id eum, explicabo aliquid harum modi ab non, voluptatum cumque odio voluptate ipsa dolorum et obcaecati distinctio delectus!"
+                }],
+                "image": {
+                    "url": "ahttp://www.lorempixel.com/10/10",
+                    "caption": "lorem ipsum",
+                    "annotations": [{
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }]
+                    }
+            }, {
+                "name": "Process",
+                "isProcess": true,
+                "content": [{
+                    "sub-title": "",
+                    "para": "Saepe, possimus praesentium sunt suscipit officia voluptatum soluta dolore quasi quo, porro nam, architecto est recusandae facilis qui! Saepe nesciunt nemo tempore."
+                }, {
+                    "sub-title": "",
+                    "para": "Vero dolores quasi, beatae id eum, explicabo aliquid harum modi ab non, voluptatum cumque odio voluptate ipsa dolorum et obcaecati distinctio delectus!"
+                }],
+                "images": [{
+                    "url": "ahttp://www.lorempixel.com/10/10",
+                    "caption": "lorem ipsum",
+                    "annotations": [{
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }]
+                }, {
+                    "url": "ahttp://www.lorempixel.com/10/10",
+                    "caption": "lorem ipsum",
+                    "annotations": [{
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }]
+                }, {
+                    "url": "ahttp://www.lorempixel.com/10/10",
+                    "caption": "lorem ipsum",
+                    "annotations": [{
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }]
+                }]
+            }],
+            "related-projects": [{
+                "name": "lorem ipsum",
+                "url": "/shire"
+            }]
+        }, {
+            "name": "Hot Cocoa Software",
+            "image": "hcs.svg",
+            "backgroundColor": "#5A3E1D",
+            "sub-title": "Brand and Web design",
+            "position": "UX Designer",
+            "duration": "Sep '13 to Dec '13",
+            "team": [{
+                "name": "Abhishek Sengar",
+                "link": "https://in.linkedin.com/in/asengar"
+            }, {
+                "name": "Rahul Agrawal",
+                "link": "https://in.linkedin.com/in/agrawalra"
+            }],
+            "skills": {
+                "design": ["Branding", "Prototyping"],
+                "web-development": ["HTML/CSS", "Bootstrap", "JavaScript", "Ruby on Rails"]
+            },
+            "tools": ["Illustrator", "Photoshop", "Sublime Text", "Emmet"],
+            "thumbnail": "port-project-icons:hcs",
+            "sections": [{
+                "name": "Problem",
+                "isProcess": false,
+                "content": [{
+                    "sub-title": "",
+                    "para": "Saepe, possimus praesentium sunt suscipit officia voluptatum soluta dolore quasi quo, porro nam, architecto est recusandae facilis qui! Saepe nesciunt nemo tempore."
+                }, {
+                    "sub-title": "",
+                    "para": "Vero dolores quasi, beatae id eum, explicabo aliquid harum modi ab non, voluptatum cumque odio voluptate ipsa dolorum et obcaecati distinctio delectus!"
+                }],
+                "image": {
+                    "url": "ahttp://www.lorempixel.com/10/10",
+                    "caption": "lorem ipsum",
+                    "annotations": [{
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }]
+                    }
+            }, {
+                "name": "Solution",
+                "isProcess": false,
+                "content": [{
+                    "sub-title": "",
+                    "para": "Saepe, possimus praesentium sunt suscipit officia voluptatum soluta dolore quasi quo, porro nam, architecto est recusandae facilis qui! Saepe nesciunt nemo tempore."
+                }, {
+                    "sub-title": "",
+                    "para": "Vero dolores quasi, beatae id eum, explicabo aliquid harum modi ab non, voluptatum cumque odio voluptate ipsa dolorum et obcaecati distinctio delectus!"
+                }],
+                "image": {
+                    "url": "ahttp://www.lorempixel.com/10/10",
+                    "caption": "lorem ipsum",
+                    "annotations": [{
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }]
+                    }
+            }, {
+                "name": "Process",
+                "isProcess": true,
+                "content": [{
+                    "sub-title": "",
+                    "para": "Saepe, possimus praesentium sunt suscipit officia voluptatum soluta dolore quasi quo, porro nam, architecto est recusandae facilis qui! Saepe nesciunt nemo tempore."
+                }, {
+                    "sub-title": "",
+                    "para": "Vero dolores quasi, beatae id eum, explicabo aliquid harum modi ab non, voluptatum cumque odio voluptate ipsa dolorum et obcaecati distinctio delectus!"
+                }],
+                "images": [{
+                    "url": "ahttp://www.lorempixel.com/10/10",
+                    "caption": "lorem ipsum",
+                    "annotations": [{
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }]
+                }, {
+                    "url": "ahttp://www.lorempixel.com/10/10",
+                    "caption": "lorem ipsum",
+                    "annotations": [{
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }]
+                }, {
+                    "url": "ahttp://www.lorempixel.com/10/10",
+                    "caption": "lorem ipsum",
+                    "annotations": [{
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }, {
+                        "position": [10, 20],
+                        "caption": "lorem ipsum"
+                    }]
+                }]
+            }],
+            "related-projects": [{
+                "name": "lorem ipsum",
+                "url": "/shire"
+            }]
+        }],
+        "about": {
+            "education": [{
+                "institute": "UMSI",
+                "major": "",
+                "start-date": "",
+                "end-date": "",
+                "gpa": ""
+            }, {
+                "institute": "UMSI",
+                "major": "",
+                "start-date": "",
+                "end-date": "",
+                "gpa": ""
+            }],
+            "experience": [{
+                "organization": "Adobe",
+                "role": "UX Developer Intern",
+                "start-date": "Jun '15",
+                "end-date": "Sep '15",
+                "location": "San Francisco, CA",
+                "image": "port-experience-icons:adobe"
+            }, {
+                "organization": "UMSI",
+                "role": "Research Assistant",
+                "start-date": "Sep '14",
+                "end-date": "Apr '15",
+                "location": "Ann Arbor, MI",
+                "image": "port-experience-icons:umsi"
+            }, {
+                "organization": "Hot Cocoa Software",
+                "role": "UI Developer",
+                "start-date": "Sep '13",
+                "end-date": "Jul '14",
+                "location": "Delhi, India",
+                "image": "port-experience-icons:hcs"
+            }]
+        },
+        "contact": [{
+            "name": "e-mail",
+            "link": "mailto:samarthg@umich.edu",
+            "icon": "port-contact-icons:email"
+        }, {
+            "name": "behance",
+            "link": "http://www.behance.net/samarthgulati",
+            "icon": "port-contact-icons:behance"
+        }, {
+            "name": "linked-in",
+            "link": "http://www.linkedin.com/in/samarthgulati",
+            "icon": "port-contact-icons:linkedin"
+        }]
+    }
+
+}

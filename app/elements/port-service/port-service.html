@@ -1,0 +1,31 @@
+<dom-module id="port-service">
+    <style>
+      :host {
+       
+      }
+    </style>
+  <template>
+    <iron-ajax
+      auto
+      url="../../data.json"
+      handle-as="json"
+      on-response="handleResponse"></iron-ajax>
+  </template>
+</dom-module>
+  <script>
+  (function() {
+    Polymer({
+      is: 'port-service',
+
+      properties: {
+        data: {
+          type: Object
+        }
+      },
+      handleResponse: function (data) {
+        console.log(data.detail.response);
+        this.data = data.detail.response;
+      }
+    });
+    })();
+  </script>

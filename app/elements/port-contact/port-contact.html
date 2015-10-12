@@ -1,0 +1,53 @@
+<!--
+@license
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+<dom-module id="port-contact">
+    <style>
+    :host {
+        display: block;
+    }
+    
+    .contact__link-list {
+        list-style: none;
+        justify-content: space-around;
+        width: 60%;
+        margin: 0 auto;
+    }
+    
+    .contact-list-item__link {
+        width: 5rem;
+        height: 5rem;
+    }
+    </style>
+    <template>
+        <article class="main__contact" id="contact">
+            <header class="contact__header">
+                <h2>You can reach out to me through</h2>
+            </header>
+            <ul class="contact__link-list layout horizontal">
+                <template is="dom-repeat" items="[[data]]">
+                    <li class="contact-link-list__item">
+                        <a href="[[item.link]]" class="contact-list-item__link" target="_blank">
+                            <iron-icon class="contact-list-item__link" alt="[[item.name]]" icon="[[item.icon]]"></iron-icon>
+                            <!-- <img src="[[item.icon]]" alt="[[item.name]]" class="contact-item-link__image"> -->
+                        </a>
+                    </li>
+                </template>
+            </ul>
+        </article>
+    </template>
+</dom-module>
+<script>
+(function() {
+    Polymer({
+        is: 'port-contact',
+        properties: {}
+    });
+})();
+</script>
