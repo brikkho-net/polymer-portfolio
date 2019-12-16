@@ -1,0 +1,77 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js
+
+PATH: 
+  C:\tools\ruby26\bin;C:\Rails\Ruby2.3.3\bin;C:\Program Files\AdoptOpenJDK\jdk-11.0.5.10-openj9\bin;C:\Program Files\nodejs\;D:\LASAPP\Vizion.ai-LAS\metricbeat-7.1.0-linux-x86_64\node_modules\.bin;C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\bin;C:\Program Files\nodejs\;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Python27\;C:\Python27\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ProgramData\nvm;C:\Program Files\nodejs;C:\tools\php73;C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files (x86)\sbt\bin;C:\Users\admin\go\bin;C:\Users\admin\scoop\apps\ant\current\bin;C:\Users\admin\scoop\apps\gpg\current\bin;C:\Users\admin\;D:\LASAPP\Vizion.ai-LAS\metricbeat-7.1.0-linux-x86_64\node_modules\.bin;C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\bin;C:\Users\admin\AppData\Roaming\npm;C:\Program Files\nodejs\;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Python27\;C:\Python27\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ProgramData\nvm;C:\Program Files\nodejs;C:\tools\php73;C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files (x86)\sbt\bin;C:\Users\admin\go\bin;C:\Users\admin\scoop\apps\ant\current\bin;C:\Ruby26-x64\bin;C:\Users\admin\scoop\apps\gpg\current\bin;C:\Users\admin\scoop\shims;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\User;C:\Users\admin\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;F:\clion\CLion 2019.3\bin;;C:\Users\admin\AppData\Roaming\Composer\vendor\bin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  12.10.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/browser-sync-ui/-/browser-sync-ui-2.26.4.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141091:19)
+      at Object.onceWrapper (events.js:298:28)
+      at ClientRequest.emit (events.js:209:13)
+      at TLSSocket.emitRequestTimeout (_http_client.js:690:9)
+      at Object.onceWrapper (events.js:298:28)
+      at TLSSocket.emit (events.js:209:13)
+      at TLSSocket.Socket._onTimeout (net.js:468:8)
+      at listOnTimeout (internal/timers.js:531:17)
+      at processTimers (internal/timers.js:475:7)
+
+npm manifest: 
+  {
+    "name": "polymer-starter-kit",
+    "version": "0.0.0",
+    "dependencies": {},
+    "scripts": {
+      "deps": "npm install -g gulp && npm install -g bower && npm install && bower install"
+    },
+    "devDependencies": {
+      "apache-server-configs": "^2.7.1",
+      "browser-sync": "^2.6.4",
+      "del": "^1.1.1",
+      "glob": "^5.0.6",
+      "gulp": "^3.8.5",
+      "gulp-autoprefixer": "^2.1.0",
+      "gulp-cache": "^0.2.8",
+      "gulp-changed": "^1.0.0",
+      "gulp-cssmin": "^0.1.6",
+      "gulp-flatten": "0.0.4",
+      "gulp-if": "^1.2.1",
+      "gulp-imagemin": "^2.2.1",
+      "gulp-jshint": "^1.6.3",
+      "gulp-load-plugins": "^0.10.0",
+      "gulp-minify-html": "^1.0.2",
+      "gulp-rename": "^1.2.0",
+      "gulp-replace": "^0.5.3",
+      "gulp-size": "^1.0.0",
+      "gulp-uglify": "^1.2.0",
+      "gulp-uncss": "^1.0.1",
+      "gulp-useref": "^1.1.2",
+      "gulp-vulcanize": "^6.0.0",
+      "jshint-stylish": "^1.0.1",
+      "merge-stream": "^0.1.7",
+      "opn": "^1.0.0",
+      "require-dir": "^0.3.0",
+      "run-sequence": "^1.0.2",
+      "vulcanize": ">= 1.4.2",
+      "try-thread-sleep": "^1.0.0",
+      "web-component-tester": "git://github.com/Polymer/web-component-tester.git#master"
+    },
+    "engines": {
+      "node": ">=0.10.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

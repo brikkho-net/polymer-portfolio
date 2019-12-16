@@ -1,0 +1,9 @@
+{
+    "files.autoSave": "onWindowChange",
+    "editor.accessibilitySupport": "on",
+    "workbench.commandPalette.preserveInput": true,
+    "workbench.list.horizontalScrolling": true,
+    "git.autofetch": true,
+    "extensions.showRecommendationsOnlyOnDemand": true,
+    "typescript.disableAutomaticTypeAcquisition": true
+}
